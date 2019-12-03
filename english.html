@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfolio | Cecilia Benítez</title>
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="toggle">
+          <input type="checkbox" class="toggle__checkbox" id="nav-toggle" />
+          <label for="nav-toggle" class="toggle__button">
+            <span class="toggle__icon"></span>
+          </label>
+          <div class="toggle__background">&nbsp;</div>
+          <nav class="toggle-nav">
+            <ul class="toggle-nav__list">
+              <li class="toggle-nav__item">
+                <a class="toggle-nav__link" href="#sobre-mi">
+                  <i class="fas fa-address-book"></i>About me
+                </a>
+              </li>
+              <li class="toggle-nav__item">
+                <a class="toggle-nav__link" href="#habilidades">
+                  <i class="fas fa-th"></i>Skills
+                </a>
+              </li>
+              <li class="toggle-nav__item">
+                <a class="toggle-nav__link" href="index.html">
+                  <i class="fas fa-globe-americas"></i>Traducción
+                </a>
+              </li>
+              <li class="toggle-nav__item">
+                <a class="toggle-nav__link" href="#proyectos">
+                  <i class="fas fa-archive"></i>Portfolio
+                </a>
+              </li>
+              <div class="separator">&nbsp;</div>
+              <li class="toggle-nav__item">
+                <a
+                  class="toggle-nav__link"
+                  id="toggle__item"
+                  href="#certificados"
+                >
+                  <i class="fas fa-award" id="toggle__big-icon"></i>
+                  <span class="toggle__notification">7</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar__item">
+            <a class="navbar__link" href="#sobre-mi">
+              <i class="fas fa-address-book"></i>About me
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#habilidades">
+              <i class="fas fa-th"></i>Skills
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="index.html">
+              <i class="fas fa-globe-americas"></i>Traducción
+            </a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#proyectos">
+              <i class="fas fa-archive"></i>Portfolio
+            </a>
+          </li>
+          <div class="separator">&nbsp;</div>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#certificados">
+              <i class="fas fa-award" id="big-icon"></i>
+              <span class="notification">7</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- HEADER -->
+      <section class="header-box">
+        <header class="header">
+          <div class="header-content">
+            <h3 class="heading-3">Web Designer</h3>
+            <h1 class="heading-1 margin-bottom-medium">
+              Frontend Developer
+            </h1>
+            <a href="#proyectos" class="btn btn-header">
+              See Portfolio
+            </a>
+          </div>
+        </header>
+      </section>
+
+      <!-- ABOUT ME -->
+      <section class="sobre-mi" id="sobre-mi">
+        <div class="sobre-mi__content">
+          <h2 class="heading-2">About me</h2>
+          <div class="sobre-mi__card">
+            <div class="mi-top">
+              <div class="ceci-img-box">
+                <img src="img/ceci.jpg" alt="Cecilia Benitez" />
+              </div>
+              Cecilia Benítez
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <p>
+              Fullname: María Cecilia Benítez Casaccia.
+            </p>
+            <p>
+                Regarding the academy, she completed two years of Mechatronics Engineering degree 
+                at the National University of Asunción (FIUNA) until she realized that her passion 
+                layed in frontend development.
+            </p>
+            <p>
+                She Completed a year in the Computer Engineering degree at the American 
+                University and is currently receiving education in digital platforms.
+            </p>
+            <p>
+                As a self-taught student, she has 2 years of experience in HTML, CSS and JavaScript, 
+                she is currently diving deeper into the React library. 
+            </p>
+            <p>
+                In her spare time she works on solving algorithms, reading about web design 
+                trends, she also loves to design layouts with CSS, take the dog for a walk 
+                or do some sport. 
+            </p>
+            <div class="horizontal-line">&nbsp;</div>
+            <ul class="sobre-mi__list">
+              <li><i class="fas fa-birthday-cake"></i>Age: 27 years old.</li>
+              <li><i class="fas fa-flag"></i>Nationality: Paraguayan | Italian.</li>
+              <li><i class="fas fa-comments"></i>Personality: Responsable, persistent, good comunication.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="skills" id="habilidades">
+        <h3 class="habilidades-heading">Skills</h3>
+        <div class="skill-box">
+            <div class="skill-card">
+                <div class="skill-img-box">
+                  <img src="./img/skills-resized/html.jpg" />
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skills-heading">HTML</h3>
+                    <p>HTML5 modern practices</p>
+                    <div class="skill">
+                        <div class="percent">
+                          <div class="progress" id="color-1" style="width: 90%"></div>
+                        </div>
+                        <span class="value">90%</span>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-img-box">
+                  <img src="./img/skills-resized/css.jpg" />
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skills-heading">CSS</h3>
+                    <p>Basic CSS</p>
+                    <div class="skill">
+                        <div class="percent">
+                          <div class="progress" id="color-2" style="width: 100%"></div>
+                        </div>
+                        <span class="value">100%</span>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-img-box">
+                  <img src="./img/skills-resized/javascript.png" />
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skills-heading">JavaScript</h3>
+                    <p>JavaScript Fundamentals</p>
+                    <div class="skill">
+                        <div class="percent">
+                          <div class="progress" id="color-3" style="width: 70%"></div>
+                        </div>
+                        <span class="value">70%</span>
+                      </div>
+                  </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-img-box">
+                  <img src="./img/skills-resized/flexbox-cssgrid.png" />
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skills-heading">Advanced CSS</h3>
+                    <p>Flexbox and CSS Grid</p>
+                    <div class="skill">
+                        <div class="percent">
+                          <div class="progress" id="color-4" style="width: 85%"></div>
+                        </div>
+                        <span class="value">85%</span>
+                      </div>
+                  </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-img-box">
+                  <img src="./img/skills-resized/ecmascript.png" />
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skills-heading">ES6 onwards</h3>
+                    <p>modern JavaScript</p>
+                    <div class="skill">
+                        <div class="percent">
+                          <div class="progress" id="color-5" style="width: 75%"></div>
+                        </div>
+                        <span class="value">75%</span>
+                      </div>
+                  </div>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-img-box">
+                  <img src="./img/skills-resized/sass.jpg" />
+                </div>
+                <div class="skill-card-body">
+                    <h3 class="skills-heading">Sass</h3>
+                    <p>CSS preprocessor</p>
+                    <div class="skill">
+                        <div class="percent">
+                          <div class="progress" id="color-6" style="width: 80%"></div>
+                        </div>
+                        <span class="value">80%</span>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        </section>
+        <!-- LANGUAGES -->
+        <div class="idiomas">
+            <div class="container-idioma">
+              <div class="progress-container">
+                <svg class="progressbar" viewBox="0 0 64 64">
+                  <defs>
+                    <clipPath id="progress__mask">
+                      <path d="M29 63.35h-.15a31.55 31.55 0 0 1-28.2-28.2 1.5 1.5 0 0 1 3-.3 28.56 28.56 0 0 0 25.5 25.51 1.5 1.5 0 0 1-.15 3zM35 63.35a1.5 1.5 0 0 1-.15-3 28.56 28.56 0 0 0 25.52-25.5 1.5 1.5 0 0 1 3 .3 31.55 31.55 0 0 1-28.2 28.19zM2.14 30.5H2a1.5 1.5 0 0 1-1.35-1.65A31.56 31.56 0 0 1 28.85.66a1.5 1.5 0 0 1 .3 3A28.56 28.56 0 0 0 3.63 29.15a1.5 1.5 0 0 1-1.49 1.35zM61.86 30.5a1.5 1.5 0 0 1-1.49-1.35A28.56 28.56 0 0 0 34.85 3.64a1.5 1.5 0 1 1 .3-3 31.56 31.56 0 0 1 28.2 28.19A1.5 1.5 0 0 1 62 30.49z"/>
+                    </clipPath>
+                  </defs>
+                  <g clip-path="url(#progress__mask)">
+                    <circle class="progressbar__track" cx="50%" cy="50%" r="30px"></circle>
+                    <circle class="progressbar__thumb-1 progressbar__thumb--track-1" cx="50%" cy="50%" r="30px"></circle>
+                    <circle class="progressbar__thumb-1 progressbar__thumb--track-2" cx="50%" cy="50%" r="30px"></circle>
+                    <circle class="progressbar__thumb-1 progressbar__thumb--track-3" cx="50%" cy="50%" r="30px"></circle>
+                  </g>
+                </svg>
+                <div class="icon-content">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="progress-content">
+                  <div class="progress__value">100</div>
+                  <div class="progress__text">Spanish</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-idioma">
+                <div class="progress-container">
+                  <svg class="progressbar" viewBox="0 0 64 64">
+                    <defs>
+                      <clipPath id="progress__mask">
+                        <path d="M29 63.35h-.15a31.55 31.55 0 0 1-28.2-28.2 1.5 1.5 0 0 1 3-.3 28.56 28.56 0 0 0 25.5 25.51 1.5 1.5 0 0 1-.15 3zM35 63.35a1.5 1.5 0 0 1-.15-3 28.56 28.56 0 0 0 25.52-25.5 1.5 1.5 0 0 1 3 .3 31.55 31.55 0 0 1-28.2 28.19zM2.14 30.5H2a1.5 1.5 0 0 1-1.35-1.65A31.56 31.56 0 0 1 28.85.66a1.5 1.5 0 0 1 .3 3A28.56 28.56 0 0 0 3.63 29.15a1.5 1.5 0 0 1-1.49 1.35zM61.86 30.5a1.5 1.5 0 0 1-1.49-1.35A28.56 28.56 0 0 0 34.85 3.64a1.5 1.5 0 1 1 .3-3 31.56 31.56 0 0 1 28.2 28.19A1.5 1.5 0 0 1 62 30.49z"/>
+                      </clipPath>
+                    </defs>
+                    <g clip-path="url(#progress__mask)">
+                      <circle class="progressbar__track" cx="50%" cy="50%" r="30px"></circle>
+                      <circle class="progressbar__thumb-2 progressbar__thumb--track-1" cx="50%" cy="50%" r="30px"></circle>
+                      <circle class="progressbar__thumb-2 progressbar__thumb--track-2" cx="50%" cy="50%" r="30px"></circle>
+                      <circle class="progressbar__thumb-2 progressbar__thumb--track-3" cx="50%" cy="50%" r="30px"></circle>
+                    </g>
+                  </svg>
+                  <div class="icon-content">
+                      <i class="fas fa-rocket"></i>
+                  </div>
+                  <div class="progress-content">
+                    <div class="progress__value">94</div>
+                    <div class="progress__text">English</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="container-idioma">
+                  <div class="progress-container">
+                    <svg class="progressbar" viewBox="0 0 64 64">
+                      <defs>
+                        <clipPath id="progress__mask">
+                          <path d="M29 63.35h-.15a31.55 31.55 0 0 1-28.2-28.2 1.5 1.5 0 0 1 3-.3 28.56 28.56 0 0 0 25.5 25.51 1.5 1.5 0 0 1-.15 3zM35 63.35a1.5 1.5 0 0 1-.15-3 28.56 28.56 0 0 0 25.52-25.5 1.5 1.5 0 0 1 3 .3 31.55 31.55 0 0 1-28.2 28.19zM2.14 30.5H2a1.5 1.5 0 0 1-1.35-1.65A31.56 31.56 0 0 1 28.85.66a1.5 1.5 0 0 1 .3 3A28.56 28.56 0 0 0 3.63 29.15a1.5 1.5 0 0 1-1.49 1.35zM61.86 30.5a1.5 1.5 0 0 1-1.49-1.35A28.56 28.56 0 0 0 34.85 3.64a1.5 1.5 0 1 1 .3-3 31.56 31.56 0 0 1 28.2 28.19A1.5 1.5 0 0 1 62 30.49z"/>
+                        </clipPath>
+                      </defs>
+                      <g clip-path="url(#progress__mask)">
+                        <circle class="progressbar__track" cx="50%" cy="50%" r="30px"></circle>
+                        <circle class="progressbar__thumb-3 progressbar__thumb--track-1" cx="50%" cy="50%" r="30px"></circle>
+                        <circle class="progressbar__thumb-3 progressbar__thumb--track-2" cx="50%" cy="50%" r="30px"></circle>
+                        <circle class="progressbar__thumb-3 progressbar__thumb--track-3" cx="50%" cy="50%" r="30px"></circle> 
+                      </g>
+                    </svg>
+                    <div class="icon-content">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="progress-content">
+                      <div class="progress__value">52</div>
+                      <div class="progress__text">Italian</div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+           <!-- PORTFOLIO -->
+           <section class="portfolio" id="proyectos">
+             <h3 class="portfolio-heading">Portfolio</h3>
+             <div class="projects">
+               <div class="project-item">
+                <div class="project-img">
+                  <img src="./img/projects/news-feed.jpg"/>
+                </div>
+                <div class="project-inner">
+                  <a class="Project-btn" href="https://ceci007.github.io/news-feed/" target="_blank">News Feed</a>
+                  <p class="project-desc">
+                    A project made with React and a news API.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-react"></i>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <a class="Project-btn" href="https://ceci007.github.io/news-feed/" target="_blank">News Feed</a>
+                  <p class="project-desc">
+                      A project made with React and a news API.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-react"></i>
+                  </div>
+                </div>
+               </div>
+
+               <div class="project-item">
+                <div class="project-img">
+                  <img src="./img/projects/trillo.jpg" />
+                </div>
+                <div class="project-inner">
+                  <a class="Project-btn" href="https://ceci007.github.io/trillo-responsive/" target="_blank">Trillo</a>
+                  <p class="project-desc">
+                    A project made with CSS Grid and Sass a CSS preprocessor.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-sass"></i>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <a class="Project-btn" href="https://ceci007.github.io/trillo-responsive/" target="_blank">Trillo</a>
+                  <p class="project-desc">
+                      A project made with CSS Grid and Sass a CSS preprocessor.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-sass"></i>
+                  </div>
+                </div>
+               </div>
+
+               <div class="project-item">
+                <div class="project-img">
+                  <img src="./img/projects/twitter-clone.jpg" />
+                </div>
+                <div class="project-inner">
+                  <a class="Project-btn" href="https://ceci007.github.io/Twitter-Clone/" target="_blank">Twitter Clone</a>
+                  <p class="project-desc">
+                    A mini twitter clone made with JavaScript.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <a class="Project-btn" href="https://ceci007.github.io/Twitter-Clone/" target="_blank">Twitter Clone</a>
+                  <p class="project-desc">
+                      A mini twitter clone made with JavaScript.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                  </div>
+                </div>
+               </div>
+
+               <div class="project-item">
+                <div class="project-img">
+                  <img src="./img/projects/grand-hotel.jpg" />
+                </div>
+                <div class="project-inner">
+                  <a class="Project-btn" href="https://ceci007.github.io/Grand-Hotel/" target="_blank">Grand Hotel</a>
+                  <p class="project-desc">
+                    A project made with Flexbox.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <a class="Project-btn" href="https://ceci007.github.io/Grand-Hotel/" target="_blank">Grand Hotel</a>
+                  <p class="project-desc">
+                      A project made with Flexbox.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                  </div>
+                </div>
+               </div>
+
+               <div class="project-item">
+                <div class="project-img">
+                  <img src="./img/projects/custom.jpg" />
+                </div>
+                <div class="project-inner">
+                  <a class="Project-btn" href="https://ceci007.github.io/custom/" target="_blank">Custom Theme</a>
+                  <p class="project-desc">
+                    A project made with React that simulates a Theme.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-react"></i>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <a class="Project-btn" href="https://ceci007.github.io/custom/" target="_blank">Custom Theme</a>
+                  <p class="project-desc">
+                      A project made with React that simulates a Theme.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-react"></i>
+                  </div>
+                </div>
+               </div>
+
+               <div class="project-item">
+                <div class="project-img">
+                  <img src="./img/projects/todo-app.jpg" />
+                </div>
+                <div class="project-inner">
+                  <a class="Project-btn" href="https://ceci007.github.io/Todo-List-Js/" target="_blank">Todo App</a>
+                  <p class="project-desc">
+                    A Todo App made with JavaScript.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <a class="Project-btn" href="https://ceci007.github.io/Todo-List-Js/" target="_blank">Todo App</a>
+                  <p class="project-desc">
+                      A Todo App made with JavaScript.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-js"></i>
+                  </div>
+                </div>
+               </div>
+
+               <div class="project-item">
+                <div class="project-img">
+                  <img src="./img/projects/hoteles.jpg" />
+                </div>
+                <div class="project-inner">
+                  <a class="Project-btn" href="https://ceci007.github.io/Hoteles/" target="_blank">Hoteles</a>
+                  <p class="project-desc">
+                    A project made with React to try out different filters.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-react"></i>
+                  </div>
+                </div>
+                <div class="project-card">
+                  <a class="Project-btn" href="https://ceci007.github.io/Hoteles/" target="_blank">Hoteles</a>
+                  <p class="project-desc">
+                      A project made with React to try out different filters.
+                  </p>
+                  <div class="features-icons">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-css3-alt"></i>
+                    <i class="fab fa-react"></i>
+                  </div>
+                </div>
+               </div>
+             </div>
+           </section>
+
+        <!-- CERTIFICATES -->
+        <div class="cube-container" id="certificados">
+          <div class="viewport">
+            <div class="control left-arrow"><i class="fas fa-arrow-left"></i></div> 
+            <div class="cube cube-1">
+              <div class="face front">
+              </div>
+              <div class="face back">
+              </div>
+              <div class="face top">
+              </div>
+              <div class="face bottom">
+              </div>
+              <div class="face left">
+              </div>
+              <div class="face right">
+              </div>
+            </div>
+          
+            <div class="cube cube-2">
+              <div class="face front">
+              </div>
+              <div class="face back">
+              </div>
+              <div class="face top">
+              </div>
+              <div class="face bottom">
+              </div>
+              <div class="face left">
+              </div>
+              <div class="face right">
+              </div>
+            </div>
+          
+             <div class="cube cube-3">
+              <div class="face front">
+              </div>
+              <div class="face back">
+              </div>
+              <div class="face top">
+              </div>
+              <div class="face bottom">
+              </div>
+              <div class="face left">
+              </div>
+              <div class="face right">
+              </div>
+            </div> 
+            <!------------------------------------------------->
+            
+            <div class="control right-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="control play-pause"><i class="fas fa-play"></i></div> 
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="contacto">
+            <p>mail: cecibenitezca@gmail.com</p>
+            <p>contact: +595971220801</p>
+          </div>
+          <div class="copyright">
+            &copy; 2020, All rights reserved.
+          </div>
+        </footer>
+      </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
+
