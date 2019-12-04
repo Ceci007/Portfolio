@@ -563,18 +563,23 @@ body {
   color: var(--color-red);
 }
 
-@media only screen and (max-width: 22.5em) /* 360px */ {
+@media only screen and (max-width: 30em) /* 480px */ {
   .mi-top i {
     right: 1rem;
     font-size: 2rem;
   }
-}
 
-@media only screen and (max-width: 18.75em) /* 300px */ {
   .ceci-img-box {
     width: 5rem;
     height: 5rem;
     margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 22.5em) /* 360px */ {
+  .mi-top i {
+    right: 1rem;
+    font-size: 2rem;
   }
 }
 
