@@ -563,6 +563,13 @@ body {
   color: var(--color-red);
 }
 
+@media only screen and (max-width: 22.5em) /* 360px */ {
+  .mi-top i {
+    right: 1rem;
+    font-size: 2rem;
+  }
+}
+
 .sobre-mi__list {
   margin-top: 2rem;
   list-style: none;
@@ -1495,7 +1502,7 @@ body {
 }
 
 .work__link i:hover {
-  color: rgba(255,255,255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .work__link:not(:last-child) i {
