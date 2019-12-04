@@ -1473,6 +1473,39 @@ body {
   padding: 0.5rem 0;
 }
 
+.submit-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  padding: 0 2rem;
+}
+
+.work__link {
+  text-decoration: none;
+}
+
+.work-icons {
+  margin-right: -4rem;
+}
+
+.work__link i {
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.work__link i:hover {
+  color: rgba(255,255,255, 0.8);
+}
+
+.work__link:not(:last-child) i {
+  margin-right: 2rem;
+}
+
+.submit-box {
+  justify-self: start;
+}
+
 button[type="submit"] {
   border: 0.2rem solid rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
