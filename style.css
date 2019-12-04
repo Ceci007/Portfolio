@@ -570,6 +570,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 18.75em) /* 300px */ {
+  .mi-top i {
+    display: none;
+  }
+}
+
 .sobre-mi__list {
   margin-top: 2rem;
   list-style: none;
