@@ -578,10 +578,20 @@
         </div>
 
         <footer class="footer">
-          <div class="contacto">
-            <p>mail: cecibenitezca@gmail.com</p>
-            <p>contact: +595971220801</p>
-          </div>
+          <form name="contact" method="POST" data-netlify="true" class="contacto">
+            <p>
+              <i class="fas fa-user"></i><input type="text" name="name" placeholder="Name" class="input-form"/>  
+            </p>
+            <p>
+              <i class="fas fa-envelope"></i><input type="email" name="email" placeholder="Email" class="input-form"/>
+            </p>
+            <p>
+              <i class="fas fa-comment-dots"></i><textarea name="message" rows="6" placeholder="Enter your message" class="input-form"></textarea>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
           <div class="copyright">
             &copy; 2020, All rights reserved.
           </div>

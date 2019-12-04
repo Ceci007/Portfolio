@@ -1423,11 +1423,46 @@ body {
     var(--color-primary),
     var(--color-secondary)
   );
-  color: #fff;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding: 2rem 0;
+  font-size: 1.8rem;
+}
+
+.contacto p:not(:last-child) {
+  display: flex;
+  margin-bottom: 3rem;
+  align-items: center;
+}
+
+.contacto p i {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+}
+
+.input-form {
+  width: 90vw;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-family: "Lato Light", sans-serif;
+  margin-top: 3rem;
+  border-radius: 0.3rem;
+}
+
+.input-form:focus {
+  outline: none;
+}
+
+.input-form::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Lato Light", sans-serif;
   font-size: 1.8rem;
 }
 
@@ -1435,10 +1470,19 @@ body {
   background-color: #000;
   color: rgba(255, 255, 255, 0.8);
   text-align: center;
+  padding: 0.5rem 0;
 }
 
-@media only screen and (max-width: 56.25em) {
-  .contacto {
-    flex-direction: column;
-  }
+button[type="submit"] {
+  border: 0.2rem solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Lato Light", sans-serif;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  transition: background-color 0.5s;
+}
+
+button[type="submit"]:hover {
+  background-color: transparent;
 }
