@@ -531,6 +531,16 @@ body {
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.3);
 }
 
+@media only screen and (min-width: 56.25em) /* 900px */ {
+  .sobre-mi__boxes {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sobre-mi__box {
+    width: 90%;
+  }
+}
+
 .sobre-mi__card p {
   color: var(--grey-dark-4);
 }
