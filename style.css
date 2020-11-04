@@ -767,6 +767,19 @@ body {
   background: linear-gradient(45deg, #ffee54, #33ff00);
 }
 
+@media only screen and (max-width: 25em) /* 400px */ {
+  .skill-img-box {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .skill-img-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
 /*------------------- LANGUAGE --------------------*/
 .idiomas {
   width: 100%;
@@ -1131,6 +1144,20 @@ body {
   }
 }
 
+@media only screen and (max-width: 25em) /* 400px */ {
+  .project-img {
+    width: 40rem;
+    height: auto;
+  }
+  
+  .project-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+  }
+}
+
 /*------------------- CERTIFICATES --------------------*/
 /**
  * Owl Carousel v2.3.3
@@ -1479,6 +1506,27 @@ button[type="submit"]:hover {
   background-color: transparent;
 }
 
+@media only screen and (max-width: 25em) /* 400px */ {
+  .contacto p i {
+    display: none;
+  }
+
+  .contacto {
+    padding: 2rem;
+  }
+
+  .submit-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0 2rem;
+  }
+
+  .work-icons {
+    margin-right: 0rem;
+  }
+}
 /*------------------- SCROLLBAR --------------------*/
 ::-webkit-scrollbar {
   width: 1rem;
