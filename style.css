@@ -1159,6 +1159,10 @@ body {
 }
 
 /*------------------- CERTIFICATES --------------------*/
+.certificados-section {
+  padding: 3rem 0;
+  padding-top: 7rem;
+}
 /**
  * Owl Carousel v2.3.3
  * Copyright 2013-2018 David Deutsch
