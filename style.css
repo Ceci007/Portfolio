@@ -389,7 +389,7 @@ body {
 
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./img/portfolio-bg.jpg);
+    url(./images/portfolio-bg.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -502,7 +502,7 @@ body {
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
     ),
-    url(./img/desktop-bg.jpeg);
+    url(./images/desktop-bg.jpeg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -512,6 +512,10 @@ body {
 
 .sobre-mi__content {
   padding: 6rem 4rem;
+}
+
+.sobre-mi__box:not(:last-child) {
+  margin-right: 4rem;
 }
 
 .heading-2 {
@@ -1012,7 +1016,7 @@ body {
 
 .Project-btn:link,
 .Project-btn:visited {
-  padding: 1.5rem 3rem;
+  padding: 1rem 2rem;
   background: linear-gradient(
     to right bottom,
     var(--color-primary),
@@ -1021,6 +1025,7 @@ body {
   text-decoration: none;
   color: #fff;
   border-radius: 0.3rem;
+  font-weight: bold;
 }
 
 .project-item:hover .project-inner {
